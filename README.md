@@ -11,6 +11,14 @@ I got useful information from this website before creating this project by updat
 ## OpenCV
 ## ROS
 
+<table>
+<tr>
+<td><img src="images/ros.png" height="160"></td>
+
+</tr>
+</table>
+
+
 
 # 1. Installation of ORB-SLAM 3 on a freshly installed (CPU) Ubuntu 20.04
 Install all library dependencies.
