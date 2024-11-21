@@ -89,7 +89,7 @@ Like this:
 
 ### ROS
 
-Please follow this [link](https://github.com/IntelRealSense/realsense-ros/tree/ros1-legacy) Method 2.
+Please follow this [link](https://wiki.ros.org/noetic/Installation/Ubuntu) . 
 
 Now check the ROS version by opening a new terminal:
 
@@ -106,8 +106,22 @@ Should be see:
 </table>
 
 
-### ROS
-Please follow this [link](https://wiki.ros.org/noetic/Installation/Ubuntu).
+### RealSense
+Please follow this [link](https://github.com/IntelRealSense/realsense-ros/tree/ros1-legacy) Method 2. OR [link](https://github.com/IntelRealSense/librealsense/blob/master/doc/distribution_linux.md#installing-the-packages).
+
+Now check the RealSense by opening a new terminal:
+
+```shell
+realsense-viewer
+```
+Should be see:
+
+<table>
+
+<td><img src="images/ros.png" height="300"></td>
+
+
+</table>
 
 ### ORB-SLAM 3
 Now, we install ORB-SLAM3.
