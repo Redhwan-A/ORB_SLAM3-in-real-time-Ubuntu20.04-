@@ -114,7 +114,15 @@ Now check the RealSense by opening a new terminal:
 ```shell
 realsense-viewer
 ```
-Should be see:
+Should be see like this:
+
+
+<table>
+
+<td><img src="images/real_3.png" height="300"></td>
+
+
+</table>
 
 <table>
 
