@@ -70,8 +70,11 @@ Now, we install ORB-SLAM3. I used the commit version ef9784101fbd28506b52f233315
 
 ```shell
 cd ~/Dev
-git clone https://github.com/UZ-SLAMLab/ORB_SLAM3.git 
+git clone https://github.com/thien94/ORB_SLAM3.git ORB_SLAM3
+# Build
 cd ORB_SLAM3
+chmod +x build.sh
+./build.sh
 ```
 We need to change the header file `gedit ./include/LoopClosing.h` at line 51  
 from  
