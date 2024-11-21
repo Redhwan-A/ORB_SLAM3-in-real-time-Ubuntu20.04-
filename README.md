@@ -124,11 +124,11 @@ cd ~/Dev/ORB_SLAM3
 ./Examples/Stereo/stereo_euroc ./Vocabulary/ORBvoc.txt ./Examples/Stereo/EuRoC.yaml ~/Datasets/EuRoc/MH01 ./Examples/Stereo/EuRoC_TimeStamps/MH01.txt dataset-MH01_stereo
 ```
 
-**Plot estimate vs Ground true**
+**Live with RealSense_D435i **
 ```
 cd ~/Dev/ORB_SLAM3
 
-python evaluation/evaluate_ate_scale.py evaluation/Ground_truth/EuRoC_left_cam/MH01_GT.txt f_dataset-MH01_stereo.txt --plot MH01_stereo.pdf
+ ./Examples/Monocular-Inertial/mono_inertial_realsense_D435i Vocabulary/ORBvoc.txt ./Examples/Monocular-Inertial/RealSense_D435i.yaml
 ```
 
 open the pdf `MH01_stereo.pdf` and you see the 
