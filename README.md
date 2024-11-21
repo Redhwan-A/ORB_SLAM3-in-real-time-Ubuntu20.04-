@@ -1,6 +1,6 @@
 # Installation
 I got useful information from this website before creating this project by updating something to avoid errors. Thanks to the authors! ([url](https://github.com/Mauhing/ORB_SLAM3/blob/master/README.md), [video](https://www.youtube.com/watch?v=DxqzwBQVCNw)) and [url](https://github.com/thien94/ORB_SLAM3/tree/67c18ebc3ef884409a7cab1892203ece7066e82a)
-# 1. Installation of ORB-SLAM 3 on a freshly installed Ubuntu 20.04
+# 1. Installation of ORB-SLAM 3 on a freshly installed (CPU) Ubuntu 20.04
 Install all library dependencies.
 ``` shell
 
@@ -19,29 +19,21 @@ sudo apt install libeigen3-dev
 ```
 ---
 
-### Install OpenCV 3.2.0
+### Install OpenCV 4.4.0
 The ORB-SLAM 3 was test by  
 ```shell
 cd ~
 mkdir Dev && cd Dev
 git clone https://github.com/opencv/opencv.git
 cd opencv
-git checkout 3.2.0
-```
-Put the following at the top of header file `gedit ./modules/videoio/src/cap_ffmpeg_impl.hpp`  
-`#define AV_CODEC_FLAG_GLOBAL_HEADER (1 << 22)`  
-`#define CODEC_FLAG_GLOBAL_HEADER AV_CODEC_FLAG_GLOBAL_HEADER`  
-`#define AVFMT_RAWPICTURE 0x0020`  
-and save and close the file
-```shell
+git checkout 4.4.0
 mkdir build
 cd build
-cmake -D CMAKE_BUILD_TYPE=Release -D WITH_CUDA=OFF -D CMAKE_INSTALL_PREFIX=/usr/local ..
-make -j 3
+cmake ..
+make -j4
 sudo make install
 ```
-> If you want to install to conda environment, use `CMAKE_INSTALL_PREFIX=$CONDA_PREFIX` instead.
----
+
 
 ### Install Pangolin
 Now, we install the Pangolin. I used the commit version 86eb4975fc4fc8b5d92148c2e370045ae9bf9f5d
