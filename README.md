@@ -81,7 +81,7 @@ Like this:
 
 <table>
 
-<td><img src="images/python.png" height="300"></td>
+<td><img src="images/python.png" height="200"></td>
 
 
 </table>
