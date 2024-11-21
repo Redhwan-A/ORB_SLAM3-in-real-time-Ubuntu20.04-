@@ -170,8 +170,22 @@ cd ~/Dev/ORB_SLAM3
 
 ```
 
-**cheer up**
+
+
 It should be seen like this if your cam is D435i:
+
+
+<table>
+
+<td><img src="images/D345i.png" height="300"></td>
+
+</table>
+
+
+
+
+
+Move and rotate the came, it should be seen like this:
 
 
 <table>
