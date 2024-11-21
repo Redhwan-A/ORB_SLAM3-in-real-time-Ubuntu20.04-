@@ -176,4 +176,11 @@ cd ~/Dev/ORB_SLAM3
 
  ./Examples/Monocular-Inertial/mono_inertial_realsense_D435i Vocabulary/ORBvoc.txt ./Examples/Monocular-Inertial/RealSense_D435i.yaml
 ``
+It should be seen like this if your cam is D435i:
 
+
+<table>
+
+<td><img src="images/D453i.png" height="300"></td>
+
+</table>
