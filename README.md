@@ -190,6 +190,6 @@ Move and rotate the came, it should be seen like this:
 
 <table>
 
-<td><img src="images/D345i.png" height="300"></td>
+<td><img src="images/D453I_WORK.png" height="300"></td>
 
 </table>
