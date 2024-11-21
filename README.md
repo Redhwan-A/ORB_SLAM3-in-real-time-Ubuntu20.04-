@@ -98,12 +98,6 @@ Similar for another datasets in EuRoc see here [https://projects.asl.ethz.ch/dat
 **Simulation**
 ```shell
 cd ~/Dev/ORB_SLAM3
-
-# Pick of them below that you want to run
-
-
-
-
 # Mono + Inertial
 ./Examples/Monocular-Inertial/mono_inertial_euroc ./Vocabulary/ORBvoc.txt ./Examples/Monocular-Inertial/EuRoC.yaml ~/Datasets/EuRoC/MH01 ./Examples/Monocular-Inertial/EuRoC_TimeStamps/MH01.txt dataset-MH01_monoimu
 
