@@ -121,8 +121,9 @@ It should be seen like this if your cam is D435i:
 
 <td><img src="images/real_3.png" height="300"></td>
 
-It should be seen like this if your cam is D435 (it is not working):
 </table>
+
+It should be seen like this if your cam is D435 (it is not working):
 
 <table>
 
