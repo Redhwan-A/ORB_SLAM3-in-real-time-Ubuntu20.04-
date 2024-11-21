@@ -14,7 +14,7 @@ I got useful information from this website before creating this project by updat
 
 <table>
 
-<td><img src="images/Dev.png" height="200"></td>
+<td><img src="images/dev.png" height="200"></td>
 
 
 </table>
