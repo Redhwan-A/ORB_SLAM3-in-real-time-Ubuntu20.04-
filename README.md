@@ -78,7 +78,7 @@ Should be see:
 ```shell
 '4.4.0'
 ```
-Like this:
+It should be seen like this :
 
 <table>
 
@@ -96,7 +96,7 @@ Now check the ROS version by opening a new terminal:
 ```shell
 roscore
 ```
-Should be see:
+It should be seen like this:
 
 <table>
 
