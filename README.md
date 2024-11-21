@@ -104,7 +104,7 @@ cd ~/Dev/ORB_SLAM3
 ```
 
 **Live with RealSense_D435i**
-```
+```shell
 cd ~/Dev/ORB_SLAM3
 
  ./Examples/Monocular-Inertial/mono_inertial_realsense_D435i Vocabulary/ORBvoc.txt ./Examples/Monocular-Inertial/RealSense_D435i.yaml
