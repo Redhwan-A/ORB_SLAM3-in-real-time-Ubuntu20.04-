@@ -23,12 +23,13 @@ sudo apt install libeigen3-dev
 Now, we install the Pangolin. I used the commit version 86eb4975fc4fc8b5d92148c2e370045ae9bf9f5d
 ```shell
 cd ~/Dev
-git clone https://github.com/thien94/ORB_SLAM3.git ORB_SLAM3
-
-# Build
-cd ORB_SLAM3
-chmod +x build.sh
-./build.sh
+git clone https://github.com/stevenlovegrove/Pangolin.git
+cd Pangolin 
+mkdir build 
+cd build 
+cmake .. -D CMAKE_BUILD_TYPE=Release 
+make -j 3 
+sudo make install
 ```
 > If you want to install to conda environment, add `CMAKE_INSTALL_PREFIX=$CONDA_PREFIX` instead.
 ---
