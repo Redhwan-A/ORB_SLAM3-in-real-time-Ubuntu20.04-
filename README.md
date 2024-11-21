@@ -1,7 +1,8 @@
-# Installation guide by Mauhing Yip
-# 1. Installation of ORB-SLAM 3 on a fresh installed Ubuntu 20.04
-Install all liberay dependencies.
-```shell
+# Installation
+I got some useful information from this website before creating this project. Thanks to the author! url
+# 1. Installation of ORB-SLAM 3 on a freshly installed Ubuntu 20.04
+Install all library dependencies.
+``` shell
 
 sudo add-apt-repository "deb http://security.ubuntu.com/ubuntu xenial-security main"
 sudo apt update
