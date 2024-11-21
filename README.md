@@ -10,6 +10,7 @@ I got useful information from this website before creating this project by updat
 ## Pangolin
 ## OpenCV
 ## ROS
+## RealSense
 
 
 
@@ -88,7 +89,7 @@ Like this:
 
 ### ROS
 
-Please follow this [link](https://wiki.ros.org/noetic/Installation/Ubuntu).
+Please follow this [link](https://github.com/IntelRealSense/realsense-ros/tree/ros1-legacy) Method 2.
 
 Now check the ROS version by opening a new terminal:
 
@@ -104,6 +105,9 @@ Should be see:
 
 </table>
 
+
+### ROS
+Please follow this [link](https://wiki.ros.org/noetic/Installation/Ubuntu).
 
 ### ORB-SLAM 3
 Now, we install ORB-SLAM3.
