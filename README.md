@@ -33,7 +33,18 @@ cmake ..
 make -j4
 sudo make install
 ```
+Now check the openCV version by opening a new terminal:
 
+```shell
+python3
+import cv2
+cv2.__version__
+```
+Should be see
+
+```shell
+'4.4.0'
+```
 
 ### Install Pangolin
 Now, we install the Pangolin. I used the commit version 86eb4975fc4fc8b5d92148c2e370045ae9bf9f5d
