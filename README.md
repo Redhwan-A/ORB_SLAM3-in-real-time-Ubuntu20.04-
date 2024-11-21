@@ -1,5 +1,5 @@
 # Installation
-I got some useful information from this website before creating this project. Thanks to the author! url
+I got some useful information from this website before creating this project. Thanks to the author! [url](https://github.com/Mauhing/ORB_SLAM3/blob/master/README.md) and [url](https://github.com/thien94/ORB_SLAM3/tree/67c18ebc3ef884409a7cab1892203ece7066e82a)
 # 1. Installation of ORB-SLAM 3 on a freshly installed Ubuntu 20.04
 Install all library dependencies.
 ``` shell
