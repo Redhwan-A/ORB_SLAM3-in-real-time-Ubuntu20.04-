@@ -102,7 +102,8 @@ mkdir MH01
 unzip MH_01_easy.zip -d MH01/
 
 ```
-Similar for another datasets in EuRoc see here [https://projects.asl.ethz.ch/datasets/doku.php?id=kmavvisualinertialdatasets]
+Similar to other datasets in EuRoc, see here [https://projects.asl.ethz.ch/datasets/doku.php?id=kmavvisualinertialdatasets, ([url](https://github.com/Mauhing/ORB_SLAM3/blob/master/README.md), and [url](https://github.com/thien94/ORB_SLAM3/tree/67c18ebc3ef884409a7cab1892203ece7066e82a)
+
 
 
 # 3. Run  
@@ -121,18 +122,4 @@ cd ~/Dev/ORB_SLAM3
 
  ./Examples/Monocular-Inertial/mono_inertial_realsense_D435i Vocabulary/ORBvoc.txt ./Examples/Monocular-Inertial/RealSense_D435i.yaml
 ``
-
-
-  
-  ```
-  rosbag play --pause V1_02_medium.bag /cam0/image_raw:=/camera/left/image_raw /cam1/image_raw:=/camera/right/image_raw /imu0:=/imu
-  ```
-  
-Once ORB-SLAM3 has loaded the vocabulary, press space in the rosbag tab.
-
-**Remark:** For rosbags from TUM-VI dataset, some play issue may appear due to chunk size. One possible solution is to rebag them with the default chunk size, for example:
-  ```
-  rosrun rosbag fastrebag.py dataset-room1_512_16.bag dataset-room1_512_16_small_chunks.bag
-  ```
-
 
