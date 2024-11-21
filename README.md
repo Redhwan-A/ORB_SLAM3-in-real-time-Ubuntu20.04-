@@ -93,7 +93,9 @@ unzip MH_01_easy.zip -d MH01/
 Similar for another datasets in EuRoc see here [https://projects.asl.ethz.ch/datasets/doku.php?id=kmavvisualinertialdatasets]
 
 
-# 3. Run simulation 
+# 3. Run  
+
+**Simulation**
 ```shell
 cd ~/Dev/ORB_SLAM3
 
@@ -107,6 +109,14 @@ cd ~/Dev/ORB_SLAM3
 
 ```
 
+**Live with RealSense_D435i**
+```
+cd ~/Dev/ORB_SLAM3
+
+ ./Examples/Monocular-Inertial/mono_inertial_realsense_D435i Vocabulary/ORBvoc.txt ./Examples/Monocular-Inertial/RealSense_D435i.yaml
+``
+
+
 # 4 Validation Estimate vs Ground True
 We need numpy and matplotlib installed in pytho2.7. But Ubuntu20.04 has not pip2.7
 ```shell
@@ -118,13 +128,7 @@ pip2.7 install numpy matplotlib
 ```
 
 
-
-**Live with RealSense_D435i**
-```
-cd ~/Dev/ORB_SLAM3
-
- ./Examples/Monocular-Inertial/mono_inertial_realsense_D435i Vocabulary/ORBvoc.txt ./Examples/Monocular-Inertial/RealSense_D435i.yaml
-```
+`
 
 open the pdf `MH01_stereo.pdf` and you see the 
 
