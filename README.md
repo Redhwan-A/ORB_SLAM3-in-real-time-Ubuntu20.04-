@@ -12,10 +12,10 @@ I got useful information from this website before creating this project by updat
 ## ROS
 
 <table>
-<tr>
+
 <td><img src="images/ros.png" height="260"></td>
 
-</tr>
+
 </table>
 
 
