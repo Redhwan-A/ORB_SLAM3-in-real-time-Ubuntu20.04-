@@ -57,7 +57,7 @@ python3
 import cv2
 cv2.__version__
 ```
-Should be see
+Should be see:
 
 ```shell
 '4.4.0'
@@ -77,21 +77,7 @@ cd ORB_SLAM3
 chmod +x build.sh
 ./build.sh
 ```
-We need to change the header file `gedit ./include/LoopClosing.h` at line 51  
-from  
-`Eigen::aligned_allocator<std::pair<const KeyFrame*, g2o::Sim3> > > KeyFrameAndPose;`  
-to  
-`Eigen::aligned_allocator<std::pair<KeyFrame *const, g2o::Sim3> > > KeyFrameAndPose;`
-in order to make this comiple.  
-Now, we can comiple ORB-SLAM3 and it dependencies as DBoW2 and g2o.  
 
-Now Simply just run (if you encounter compiler, try to run the this shell script 2 or 3 more time. It works for me.)
-```shell
-./build.sh
-```
-to install  
-
----
 
 # 2. Download test datasets
 
