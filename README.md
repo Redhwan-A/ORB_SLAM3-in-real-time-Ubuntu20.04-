@@ -118,7 +118,7 @@ Should be see:
 
 <table>
 
-<td><img src="images/ros.png" height="300"></td>
+<td><img src="images/cam_D435.png" height="300"></td>
 
 
 </table>
