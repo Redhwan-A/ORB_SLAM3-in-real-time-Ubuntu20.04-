@@ -4,7 +4,7 @@ I got useful information from this website before creating this project by updat
 
 
 #  Prerequisites
-We have tested the library in **Ubuntu 16.04** and **18.04**, but it should be easy to compile in other platforms. A powerful computer (e.g. i7) will ensure real-time performance and provide more stable and accurate results.
+
 
 ## Ubuntu 20.04
 ## Pangolin
@@ -32,7 +32,7 @@ sudo apt install libeigen3-dev
 ---
 
 ### Install Pangolin
-Now, we install the Pangolin. I used the commit version 86eb4975fc4fc8b5d92148c2e370045ae9bf9f5d
+Now, we install the Pangolin. 
 ```shell
 cd ~/Dev
 git clone https://github.com/stevenlovegrove/Pangolin.git
