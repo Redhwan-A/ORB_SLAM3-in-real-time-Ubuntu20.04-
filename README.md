@@ -176,6 +176,6 @@ It should be seen like this if your cam is D435i:
 
 <table>
 
-<td><img src="images/D453i.png" height="300"></td>
+<td><img src="images/D345i.png" height="300"></td>
 
 </table>
