@@ -114,14 +114,14 @@ Now check the RealSense by opening a new terminal:
 ```shell
 realsense-viewer
 ```
-Should be see like this:
+It should be seen like this if your cam is D435i:
 
 
 <table>
 
 <td><img src="images/real_3.png" height="300"></td>
 
-
+It should be seen like this if your cam is D435 (it is not working):
 </table>
 
 <table>
