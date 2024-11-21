@@ -102,7 +102,7 @@ mkdir MH01
 unzip MH_01_easy.zip -d MH01/
 
 ```
-Similar to other datasets in EuRoc, see here [https://projects.asl.ethz.ch/datasets/doku.php?id=kmavvisualinertialdatasets, ([url](https://github.com/Mauhing/ORB_SLAM3/blob/master/README.md), and [url](https://github.com/thien94/ORB_SLAM3/tree/67c18ebc3ef884409a7cab1892203ece7066e82a)
+Similar to other datasets in EuRoc, see here [https://projects.asl.ethz.ch/datasets/doku.php?id=kmavvisualinertialdatasets, [url](https://github.com/Mauhing/ORB_SLAM3/blob/master/README.md), and [url](https://github.com/thien94/ORB_SLAM3/tree/67c18ebc3ef884409a7cab1892203ece7066e82a)]
 
 
 
