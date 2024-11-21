@@ -123,7 +123,7 @@ It should be seen like this if your cam is D435i:
 
 </table>
 
-It should be seen like this if your cam is D435 (it is not working):
+If your cam is D435 it should be seen like this (it is not working, don't keep it up):
 
 <table>
 
