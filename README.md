@@ -11,12 +11,7 @@ I got useful information from this website before creating this project by updat
 ## OpenCV
 ## ROS
 
-<table>
 
-<td><img src="images/ros.png" height="260"></td>
-
-
-</table>
 
 
 
@@ -94,7 +89,12 @@ roscore
 ```
 Should be see:
 
+<table>
 
+<td><img src="images/ros.png" height="300"></td>
+
+
+</table>
 
 
 ### ORB-SLAM 3
