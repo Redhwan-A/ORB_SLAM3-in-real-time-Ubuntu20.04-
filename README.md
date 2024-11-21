@@ -79,6 +79,15 @@ Should be see:
 
 Please follow this [link](https://wiki.ros.org/noetic/Installation/Ubuntu).
 
+Now check the ROS version by opening a new terminal:
+
+```shell
+roscore
+```
+Should be see:
+
+
+
 
 ### ORB-SLAM 3
 Now, we install ORB-SLAM3.
