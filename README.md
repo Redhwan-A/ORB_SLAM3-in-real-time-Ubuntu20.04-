@@ -19,6 +19,23 @@ sudo apt install libeigen3-dev
 ```
 ---
 
+### Install Pangolin
+Now, we install the Pangolin. I used the commit version 86eb4975fc4fc8b5d92148c2e370045ae9bf9f5d
+```shell
+cd ~/Dev
+git clone https://github.com/stevenlovegrove/Pangolin.git
+cd Pangolin 
+mkdir build 
+cd build 
+cmake .. -D CMAKE_BUILD_TYPE=Release 
+make -j 3 
+sudo make install
+```
+> If you want to install to conda environment, add `CMAKE_INSTALL_PREFIX=$CONDA_PREFIX` instead.
+---
+
+
+
 ### Install OpenCV 4.4.0
 The ORB-SLAM 3 was test by  
 ```shell
@@ -46,20 +63,8 @@ Should be see
 '4.4.0'
 ```
 
-### Install Pangolin
-Now, we install the Pangolin. I used the commit version 86eb4975fc4fc8b5d92148c2e370045ae9bf9f5d
-```shell
-cd ~/Dev
-git clone https://github.com/stevenlovegrove/Pangolin.git
-cd Pangolin 
-mkdir build 
-cd build 
-cmake .. -D CMAKE_BUILD_TYPE=Release 
-make -j 3 
-sudo make install
-```
-> If you want to install to conda environment, add `CMAKE_INSTALL_PREFIX=$CONDA_PREFIX` instead.
----
+
+
 
 ### ORB-SLAM 3
 Now, we install ORB-SLAM3. I used the commit version ef9784101fbd28506b52f233315541ef8ba7af57 tag: v0.3-beta
