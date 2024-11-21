@@ -117,14 +117,9 @@ sudo python2 get-pip.py
 pip2.7 install numpy matplotlib
 ```
 
-**Run and plot Ground true**
-```
-cd ~/Dev/ORB_SLAM3
 
-./Examples/Stereo/stereo_euroc ./Vocabulary/ORBvoc.txt ./Examples/Stereo/EuRoC.yaml ~/Datasets/EuRoc/MH01 ./Examples/Stereo/EuRoC_TimeStamps/MH01.txt dataset-MH01_stereo
-```
 
-**Live with RealSense_D435i **
+**Live with RealSense_D435i**
 ```
 cd ~/Dev/ORB_SLAM3
 
