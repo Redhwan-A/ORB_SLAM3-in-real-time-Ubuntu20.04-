@@ -193,7 +193,7 @@ It should be seen like this if your cam is D435i:
 
 
 
-Move and rotate the came, it should be seen like this:
+Move and rotate the cam, it should be seen like this:
 
 
 <table>
